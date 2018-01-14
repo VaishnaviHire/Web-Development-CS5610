@@ -6,7 +6,7 @@ server {
 
         index hw01.html;
 
-        server_name hw01.vaishnavihire.com;
+        server_name hw01.vaishnavihire.com www.hw01.vaishnavihire.com;
 
         location / {
                 # First attempt to serve request as file, then
