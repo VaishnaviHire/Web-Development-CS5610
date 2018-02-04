@@ -6,8 +6,8 @@ defmodule CalcTest do
     assert Calc.eval("5+2") == 7
   end
   
-   test "Divide by 0" do
-    assert Calc.eval("1/0") == "Can`t divide by zero"
+   test "Single Bracket" do
+    assert Calc.eval("2+3 * (5+7) - 10") == 28
    end
 
    test "nested brackets" do
